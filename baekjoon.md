@@ -34,3 +34,17 @@ int main()
 ??!|	\||
 ??>|	}
 ??-|	~
+
+## 한 자리씩 출력(2588)
+<pre>
+#include <stdio.h>
+int main()
+{
+    int b;
+    scanf("%d", &b);
+    printf("%d\n", (b/100));
+    printf("%d\n", (b%100 / 10));
+    printf("%d\n", (b%10));
+    return 0;
+}
+</pre>
